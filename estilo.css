@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: #f6f6f6;
+}
+#caixa-titulo {
+    color: blueviolet;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#planos-caixa {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caixa-plano {
+    width: 200px;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.caixa-plano h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.caixa-plano span {
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #f6f6f6;
+    color: black;
+    padding: 10px;
+}
+.caixa-plano p {
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.caixa-plano button {
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
